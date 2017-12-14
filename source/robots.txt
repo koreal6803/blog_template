@@ -1,0 +1,8 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /js/
+Allow: /css/
+Sitemap: http://koreal6803.github.io/sitemap.xml
+Sitemap: http://koreal6803.github.io/baidusitemap.xml
