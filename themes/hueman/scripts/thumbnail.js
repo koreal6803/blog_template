@@ -13,5 +13,10 @@ hexo.extend.helper.register('thumbnail', function (post) {
             url = result[1];
         }
     }
+
+    if (!url) {
+        url = 'images/logo_img.png'
+    }
+
     return url;
 });
